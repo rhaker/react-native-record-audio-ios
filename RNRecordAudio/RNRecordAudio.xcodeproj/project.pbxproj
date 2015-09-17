@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFC145791BAB2BA0008BCF87 /* RNRecordAudio.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = DFC145781BAB2BA0008BCF87 /* RNRecordAudio.h */; };
+		DFC1457B1BAB2BA0008BCF87 /* RNRecordAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = DFC1457A1BAB2BA0008BCF87 /* RNRecordAudio.m */; };
+		DFC145811BAB2BA0008BCF87 /* libRNRecordAudio.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFC145751BAB2BA0008BCF87 /* libRNRecordAudio.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFC145821BAB2BA0008BCF87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFC1456D1BAB2BA0008BCF87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFC145741BAB2BA0008BCF87;
+			remoteInfo = RNRecordAudio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFC145731BAB2BA0008BCF87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				DFC145791BAB2BA0008BCF87 /* RNRecordAudio.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DFC145751BAB2BA0008BCF87 /* libRNRecordAudio.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNRecordAudio.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC145781BAB2BA0008BCF87 /* RNRecordAudio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNRecordAudio.h; sourceTree = "<group>"; };
+		DFC1457A1BAB2BA0008BCF87 /* RNRecordAudio.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNRecordAudio.m; sourceTree = "<group>"; };
+		DFC145801BAB2BA0008BCF87 /* RNRecordAudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNRecordAudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC145861BAB2BA0008BCF87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFC145721BAB2BA0008BCF87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC1457D1BAB2BA0008BCF87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC145811BAB2BA0008BCF87 /* libRNRecordAudio.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFC1456C1BAB2BA0008BCF87 = {
+			isa = PBXGroup;
+			children = (
+				DFC145771BAB2BA0008BCF87 /* RNRecordAudio */,
+				DFC145841BAB2BA0008BCF87 /* RNRecordAudioTests */,
+				DFC145761BAB2BA0008BCF87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DFC145761BAB2BA0008BCF87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFC145751BAB2BA0008BCF87 /* libRNRecordAudio.a */,
+				DFC145801BAB2BA0008BCF87 /* RNRecordAudioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFC145771BAB2BA0008BCF87 /* RNRecordAudio */ = {
+			isa = PBXGroup;
+			children = (
+				DFC145781BAB2BA0008BCF87 /* RNRecordAudio.h */,
+				DFC1457A1BAB2BA0008BCF87 /* RNRecordAudio.m */,
+			);
+			path = RNRecordAudio;
+			sourceTree = "<group>";
+		};
+		DFC145841BAB2BA0008BCF87 /* RNRecordAudioTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFC145851BAB2BA0008BCF87 /* Supporting Files */,
+			);
+			path = RNRecordAudioTests;
+			sourceTree = "<group>";
+		};
+		DFC145851BAB2BA0008BCF87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DFC145861BAB2BA0008BCF87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFC145741BAB2BA0008BCF87 /* RNRecordAudio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC145891BAB2BA0008BCF87 /* Build configuration list for PBXNativeTarget "RNRecordAudio" */;
+			buildPhases = (
+				DFC145711BAB2BA0008BCF87 /* Sources */,
+				DFC145721BAB2BA0008BCF87 /* Frameworks */,
+				DFC145731BAB2BA0008BCF87 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNRecordAudio;
+			productName = RNRecordAudio;
+			productReference = DFC145751BAB2BA0008BCF87 /* libRNRecordAudio.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		DFC1457F1BAB2BA0008BCF87 /* RNRecordAudioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFC1458C1BAB2BA0008BCF87 /* Build configuration list for PBXNativeTarget "RNRecordAudioTests" */;
+			buildPhases = (
+				DFC1457C1BAB2BA0008BCF87 /* Sources */,
+				DFC1457D1BAB2BA0008BCF87 /* Frameworks */,
+				DFC1457E1BAB2BA0008BCF87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFC145831BAB2BA0008BCF87 /* PBXTargetDependency */,
+			);
+			name = RNRecordAudioTests;
+			productName = RNRecordAudioTests;
+			productReference = DFC145801BAB2BA0008BCF87 /* RNRecordAudioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFC1456D1BAB2BA0008BCF87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = rhaker;
+				TargetAttributes = {
+					DFC145741BAB2BA0008BCF87 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					DFC1457F1BAB2BA0008BCF87 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = DFC145701BAB2BA0008BCF87 /* Build configuration list for PBXProject "RNRecordAudio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DFC1456C1BAB2BA0008BCF87;
+			productRefGroup = DFC145761BAB2BA0008BCF87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFC145741BAB2BA0008BCF87 /* RNRecordAudio */,
+				DFC1457F1BAB2BA0008BCF87 /* RNRecordAudioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFC1457E1BAB2BA0008BCF87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFC145711BAB2BA0008BCF87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC1457B1BAB2BA0008BCF87 /* RNRecordAudio.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFC1457C1BAB2BA0008BCF87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFC145831BAB2BA0008BCF87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFC145741BAB2BA0008BCF87 /* RNRecordAudio */;
+			targetProxy = DFC145821BAB2BA0008BCF87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DFC145871BAB2BA0008BCF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DFC145881BAB2BA0008BCF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFC1458A1BAB2BA0008BCF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DFC1458B1BAB2BA0008BCF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DFC1458D1BAB2BA0008BCF87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNRecordAudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DFC1458E1BAB2BA0008BCF87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNRecordAudioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFC145701BAB2BA0008BCF87 /* Build configuration list for PBXProject "RNRecordAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC145871BAB2BA0008BCF87 /* Debug */,
+				DFC145881BAB2BA0008BCF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFC145891BAB2BA0008BCF87 /* Build configuration list for PBXNativeTarget "RNRecordAudio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC1458A1BAB2BA0008BCF87 /* Debug */,
+				DFC1458B1BAB2BA0008BCF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DFC1458C1BAB2BA0008BCF87 /* Build configuration list for PBXNativeTarget "RNRecordAudioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFC1458D1BAB2BA0008BCF87 /* Debug */,
+				DFC1458E1BAB2BA0008BCF87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFC1456D1BAB2BA0008BCF87 /* Project object */;
+}
