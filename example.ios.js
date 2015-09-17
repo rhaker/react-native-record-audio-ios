@@ -50,12 +50,12 @@ var testComp = React.createClass({
         <Text style={styles.welcome}>
           Check Audio Status - View Xcode Log
         </Text>
-        <TouchableHighlight onPress={this.startRecord()}>
+        <TouchableHighlight onPress={this.startRecord}>
           <Text style={styles.instructions}>
             Press to Start Recording
           </Text>
         </TouchableHighlight>
-        <TouchableHighlight onPress={this.stopRecord()}>
+        <TouchableHighlight onPress={this.stopRecord}>
           <Text style={styles.instructions}>
             Press to Stop Recording
           </Text>
