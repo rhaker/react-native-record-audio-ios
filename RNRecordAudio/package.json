@@ -1,6 +1,6 @@
 {
   "name": "react-native-record-audio-ios",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A react-native interface for recording audio on an ios device. Supports .caf, .m4a, and .wav files.",
   "main": "index.ios.js",
   "scripts": {
@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/rhaker/react-native-record-audio-ios",
   "dependencies": {
-    "react-native": "^0.10.0"
+    "react-native": "^0.12.0"
   },
   "devDependencies": {}
 }
