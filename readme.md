@@ -21,7 +21,7 @@ Setup trouble?
 If you get stuck, take a look at Brent Vatne's blog. His blog is my go to reference for this stuff.
 
 # Api Setup
-
+```javascript
 var React = require('react-native');
 
 var { NativeModules } = React;
@@ -31,42 +31,31 @@ var { RNRecordAudio } = NativeModules;
 // Start Recording
 
 RNRecordAudio.startRecord(
-
     "test.m4a", // filename
 
     function errorCallback(results) {
-
         console.log('JS Error: ' + results['errMsg']);
-
     },
 
     function successCallback(results) {
-
         console.log('JS Success: ' + results['successMsg']);
-
     }
-
 );
 
 // Stop Recording
 
 RNRecordAudio.stopRecord(
-
     "test.m4a", // filename
 
     function errorCallback(results) {
-
         console.log('JS Error: ' + results['errMsg']);
-
     },
 
     function successCallback(results) {
-
         console.log('JS Success: ' + results['successMsg']);
-
     }
-
 );
+```
 
 
 # Additional Notes
